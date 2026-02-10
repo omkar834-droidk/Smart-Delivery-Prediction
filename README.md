@@ -1,99 +1,92 @@
-🚚 Smart Delivery Prediction
-End-to-End Machine Learning Project with Real-Time Deployment
-🔷 Overview
+# 🚚 Smart Delivery Prediction
+
+### End-to-End Machine Learning Project with Real-Time Deployment
+
+---
+
+## 📌 Overview
 
 Smart Delivery Prediction is a production-style Machine Learning application designed to estimate food delivery time using operational and environmental factors.
 
 This project demonstrates the complete lifecycle of a Machine Learning system:
 
-Data preprocessing
+- Data preprocessing  
+- Feature engineering  
+- Model training  
+- Hyperparameter optimization  
+- Model serialization  
+- Deployment using Streamlit  
 
-Feature engineering
+---
 
-Model training & optimization
+## 🎯 Business Context
 
-Model serialization
+In food delivery platforms, accurate delivery time prediction impacts:
 
-Deployment using Streamlit
+- Customer satisfaction  
+- Operational efficiency  
+- Courier allocation  
+- Order management  
+- SLA performance  
 
-Version control using Git
+---
 
-It reflects practical, real-world application of supervised learning in logistics and delivery optimization.
+## 🧠 Machine Learning Workflow
 
-🔷 Business Context
+### 1️⃣ Data Preparation
 
-In food delivery platforms, accurate delivery time prediction directly impacts:
+- Handling categorical variables using Label Encoding  
+- Structured feature selection  
+- Cleaned dataset ready for modeling  
 
-Customer trust
+### 2️⃣ Model Development
 
-Retention rate
+- Algorithm: Random Forest Regressor  
+- Hyperparameter tuning applied  
+- Reduced overfitting  
+- Improved prediction stability  
 
-Order satisfaction
+### 3️⃣ Model Persistence
 
-Operational planning
+- Model saved using Pickle  
+- Encoders saved separately  
+- Production-ready structure  
 
-Courier allocation efficiency
+### 4️⃣ Deployment
 
-This system models real-world delivery scenarios to provide intelligent time estimation.
+- Built using Streamlit  
+- Interactive sidebar input  
+- Real-time delivery time prediction  
+- Clean dashboard layout  
 
-🔷 Machine Learning Workflow
-1. Data Preparation
+---
 
-Structured dataset representing delivery conditions
+## 📊 Feature Set
 
-Handling categorical variables using Label Encoding
+| Feature | Description |
+|----------|------------|
+| Distance_km | Delivery distance |
+| Weather | Environmental condition |
+| Traffic_Level | Traffic congestion |
+| Time_of_Day | Delivery time segment |
+| Vehicle_Type | Delivery vehicle type |
+| Preparation_Time_min | Order preparation duration |
+| Courier_Experience_yrs | Courier experience |
 
-Feature selection based on relevance
+---
 
-2. Model Development
+## 🛠 Technology Stack
 
-Algorithm: Random Forest Regressor
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Random Forest Regressor  
+- Streamlit  
+- Pickle  
+- Git  
 
-Hyperparameter optimization
+---
 
-Overfitting control
+## 📂 Project Structure
 
-3. Model Persistence
-
-Model saved using Pickle
-
-Encoders saved separately
-
-Designed for reproducible deployment
-
-4. Deployment Layer
-
-Built using Streamlit
-
-Interactive sidebar input panel
-
-Real-time prediction output
-
-Clean UI layout
-
-🔷 Feature Set
-Feature	Description
-Distance_km	Delivery distance
-Weather	Environmental condition
-Traffic_Level	Traffic congestion
-Time_of_Day	Delivery time segment
-Vehicle_Type	Type of delivery vehicle
-Preparation_Time_min	Order preparation duration
-Courier_Experience_yrs	Courier experience level
-🔷 Technology Stack
-
-Python
-
-Pandas
-
-NumPy
-
-Scikit-learn
-
-Random Forest Regressor
-
-Streamlit
-
-Pickle
-
-Git & GitHub
